@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualizacionCorrecta" xml:space="preserve">
+    <value>El registro se actualizó correctamente.</value>
+  </data>
+  <data name="Administrador" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Alta" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="ArchivoConfiguracion" xml:space="preserve">
+    <value>config.ini</value>
+  </data>
+  <data name="Asterisco" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Baja" xml:space="preserve">
+    <value>Baja</value>
+  </data>
+  <data name="Blanco" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cero" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Coma" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="CorcheteAbre" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="CorcheteCierra" xml:space="preserve">
+    <value>]</value>
+  </data>
+  <data name="Cultura" xml:space="preserve">
+    <value>es-Mx</value>
+  </data>
+  <data name="CulturaUS" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="DesNivelA" xml:space="preserve">
+    <value>Administrador</value>
+  </data>
+  <data name="DesNivelO" xml:space="preserve">
+    <value>Operador</value>
+  </data>
+  <data name="DesNivelS" xml:space="preserve">
+    <value>Supervisor</value>
+  </data>
+  <data name="DiagonalDerecha" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="DiagonalIzquierda" xml:space="preserve">
+    <value>\</value>
+  </data>
+  <data name="DosPuntos" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="EliminarCorrecto" xml:space="preserve">
+    <value>El registro se eliminó correctamente.</value>
+  </data>
+  <data name="Espacio" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="EspaciosDoscien" xml:space="preserve">
+    <value>                                                                                                                                                                </value>
+  </data>
+  <data name="ListaEliminar" xml:space="preserve">
+    <value>DEL</value>
+  </data>
+  <data name="ListaInsertar" xml:space="preserve">
+    <value>INS</value>
+  </data>
+  <data name="ListaModificar" xml:space="preserve">
+    <value>MOD</value>
+  </data>
+  <data name="ListaNueva" xml:space="preserve">
+    <value>NUEVA</value>
+  </data>
+  <data name="llaveFin" xml:space="preserve">
+    <value>}</value>
+  </data>
+  <data name="llaveInicio" xml:space="preserve">
+    <value>{</value>
+  </data>
+  <data name="Modificar" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="N" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="NivelAdmin" xml:space="preserve">
+    <value>ADMIN</value>
+  </data>
+  <data name="NivelOper" xml:space="preserve">
+    <value>OPER</value>
+  </data>
+  <data name="NivelSuper" xml:space="preserve">
+    <value>SUPER</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="NombreAssambly" xml:space="preserve">
+    <value>Contingencia.exe</value>
+  </data>
+  <data name="NombreSistema" xml:space="preserve">
+    <value>Contingencia</value>
+  </data>
+  <data name="Nulo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NumeroInvalido" xml:space="preserve">
+    <value>Número no válido.</value>
+  </data>
+  <data name="OperacionDELETE" xml:space="preserve">
+    <value>DELETE</value>
+  </data>
+  <data name="OperacionINSERT" xml:space="preserve">
+    <value>INSERT</value>
+  </data>
+  <data name="OperacionUPDATE" xml:space="preserve">
+    <value>UPDATE</value>
+  </data>
+  <data name="Operador" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="Paloma" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="PasswordBd" xml:space="preserve">
+    <value>Spw</value>
+  </data>
+  <data name="Pipe" xml:space="preserve">
+    <value>|</value>
+  </data>
+  <data name="PreguntaEliminar" xml:space="preserve">
+    <value>Eliminar registro?</value>
+  </data>
+  <data name="RegistroCorrecto" xml:space="preserve">
+    <value>El registro se guardó correctamente.</value>
+  </data>
+  <data name="S" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Servidor" xml:space="preserve">
+    <value>Sbd</value>
+  </data>
+  <data name="SI" xml:space="preserve">
+    <value>SI</value>
+  </data>
+  <data name="SistemaOperativo" xml:space="preserve">
+    <value>Sop</value>
+  </data>
+  <data name="Supervisor" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Tache" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="TipoDatoDecimal" xml:space="preserve">
+    <value>Decimal</value>
+  </data>
+  <data name="TipoDatoDouble" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="TipoDatoFecha" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="TipoDatoInt" xml:space="preserve">
+    <value>Int</value>
+  </data>
+  <data name="TipoDatoString" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="TipoProcesoModificarCuenta" xml:space="preserve">
+    <value>ModificarCuenta</value>
+  </data>
+  <data name="TipoProcesoModificarEstado" xml:space="preserve">
+    <value>ModificarEstado</value>
+  </data>
+  <data name="TipoProcesoModificarGestor" xml:space="preserve">
+    <value>ModificarGestor</value>
+  </data>
+  <data name="UsuarioActivo" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="UsuarioBaja" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="UsuarioBd" xml:space="preserve">
+    <value>Sus</value>
+  </data>
+  <data name="UsuarioInactivo" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="VarPeriodo" xml:space="preserve">
+    <value>Periodo</value>
+  </data>
+</root>

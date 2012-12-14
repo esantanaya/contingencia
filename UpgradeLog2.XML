@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Contingencia">
+</Property><Property Name="Solution File" Value="C:\Users\Orphen\Desktop\pr\Contingencia\Contingencia.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Orphen\Desktop\pr\Contingencia\Contingencia.suo">
+</Property><Property Name="Date" Value="martes, 24 de abril de 2012">
+</Property><Property Name="Time" Value="22:09 p.m.">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Contingencia.sln" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Contingencia.suo" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia.suo">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Contingencia.csproj" Description="Project file successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Contingencia.csproj">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Contingencia.csproj.user" Description="Project user file successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Contingencia.csproj.user">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsBase.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsBase.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsCentro.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsCentro.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsEntorno.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsEntorno.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsFileManager.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsFileManager.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsFunciones.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsFunciones.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsUsuarios.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsUsuarios.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsUsuariosBAL.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsUsuariosBAL.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsUsuariosCollection.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsUsuariosCollection.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsUsuariosDAL.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsUsuariosDAL.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsVariablesEntorno.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsVariablesEntorno.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\ClsVariablesEntornoBD.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\ClsVariablesEntornoBD.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Constantes.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Constantes.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Errores.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Errores.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmAcercaDe.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmAcercaDe.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmAcercaDe.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmAcercaDe.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmBase.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmBase.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmBase.designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmBase.designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmBaseCatalogo.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmBaseCatalogo.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmBaseCatalogo.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmBaseCatalogo.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmListaSeleccion.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmListaSeleccion.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmListaSeleccion.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmListaSeleccion.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmLogin.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmLogin.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmLogin.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmLogin.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmPrincipal.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmPrincipal.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmPrincipal.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmPrincipal.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmUsuarios.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmUsuarios.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmUsuarios.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmUsuarios.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmZPPG01Captura.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmZPPG01Captura.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmZPPG01Captura.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmZPPG01Captura.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmZPPG01Entrada.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmZPPG01Entrada.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmZPPG01Entrada.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmZPPG01Entrada.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Procedimientos.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Procedimientos.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Program.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Program.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Variables.Designer.cs" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Variables.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Properties\Settings.settings" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Resources\logo_keken.gif" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Resources\logo_keken.gif">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Resources\Eliminar1.png" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Resources\Eliminar1.png">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Resources\Enter.bmp" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Resources\Enter.bmp">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Resources\Instancia.JPG" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Resources\Instancia.JPG">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Resources\Listado.JPG" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Resources\Listado.JPG">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Resources\Eliminar11.png" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Resources\Eliminar11.png">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Constantes.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Constantes.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Errores.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Errores.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmAcercaDe.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmAcercaDe.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmBase.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmBase.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmBaseCatalogo.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmBaseCatalogo.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmListaSeleccion.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmListaSeleccion.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmLogin.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmLogin.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmPrincipal.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmPrincipal.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmUsuarios.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmUsuarios.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmZPPG01Captura.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmZPPG01Captura.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\FrmZPPG01Entrada.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\FrmZPPG01Entrada.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Procedimientos.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Procedimientos.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Properties\Resources.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Variables.resx" Description="File successfully backed up as C:\Users\Orphen\Desktop\pr\Contingencia\Backup\Contingencia\Variables.resx">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Contingencia.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Contingencia" Source="Contingencia\Contingencia.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Contingencia.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Contingencia.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Contingencia" Source="Contingencia\Contingencia.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

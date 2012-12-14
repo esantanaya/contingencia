@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Recartera">
+</Property><Property Name="Solution File" Value="C:\Basura\Recartera\Recartera.sln">
+</Property><Property Name="User Options File" Value="C:\Basura\Recartera\Recartera.suo">
+</Property><Property Name="Date" Value="Tuesday, April 24, 2012">
+</Property><Property Name="Time" Value="14:00 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Recartera.sln" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Recartera.suo" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera.suo">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Recartera.csproj" Description="Project file successfully backed up as C:\Basura\Recartera\Backup\Recartera\Recartera.csproj">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsBase.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsBase.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsCesiones.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsCesiones.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsCesionesBAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsCesionesBAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsCesionesCollection.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsCesionesCollection.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsCesionesDAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsCesionesDAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsClientes.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsClientes.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsClientesBAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsClientesBAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsClientesCollection.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsClientesCollection.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsClientesDAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsClientesDAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsCobranzaDAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsCobranzaDAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsCuentas.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsCuentas.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsCuentasBAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsCuentasBAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsCuentasCollection.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsCuentasCollection.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsCuentasDAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsCuentasDAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsEntorno.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsEntorno.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsEstados.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsEstados.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsEstadosBAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsEstadosBAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsEstadosCollection.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsEstadosCollection.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsEstadosDAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsEstadosDAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsExcelBAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsExcelBAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsExcelDAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsExcelDAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsFileManager.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsFileManager.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsFunciones.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsFunciones.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsGestion.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsGestion.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsGestionBAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsGestionBAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsGestionCollection.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsGestionCollection.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsGestionDAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsGestionDAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsUsuarios.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsUsuarios.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsUsuariosBAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsUsuariosBAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsUsuariosCollection.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsUsuariosCollection.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsUsuariosDAL.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsUsuariosDAL.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsVariablesEntorno.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsVariablesEntorno.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\ClsVariablesEntornoBD.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\ClsVariablesEntornoBD.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Constantes.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Constantes.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Errores.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Errores.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmAcercaDe.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmAcercaDe.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmAcercaDe.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmAcercaDe.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmBaseCatalogo.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmBaseCatalogo.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmBaseCatalogo.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmBaseCatalogo.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmCargarCartera.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmCargarCartera.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmCargarCartera.designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmCargarCartera.designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmCesiones.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmCesiones.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmCesiones.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmCesiones.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmCuentas.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmCuentas.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmCuentas.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmCuentas.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmLogin.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmLogin.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmLogin.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmLogin.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmUsuarios.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmUsuarios.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmUsuarios.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmUsuarios.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\MDIPrincipal.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\MDIPrincipal.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\MDIPrincipal.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\MDIPrincipal.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Procedimientos.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Procedimientos.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Program.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Program.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Variables1.Designer.cs" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Variables1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Properties\Settings.settings" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Constantes.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Constantes.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Errores.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Errores.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmAcercaDe.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmAcercaDe.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmBaseCatalogo.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmBaseCatalogo.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmCargarCartera.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmCargarCartera.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmCesiones.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmCesiones.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmCuentas.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmCuentas.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmLogin.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmLogin.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\FrmUsuarios.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\FrmUsuarios.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\MDIPrincipal.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\MDIPrincipal.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Procedimientos.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Procedimientos.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Properties\Resources.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Variables.resx" Description="File successfully backed up as C:\Basura\Recartera\Backup\Recartera\Variables.resx">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Recartera.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Recartera" Source="Recartera\Recartera.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Recartera.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Recartera.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Recartera" Source="Recartera\Recartera.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

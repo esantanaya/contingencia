@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30D63DFB-0784-4AD2-9827-57F10EECE9B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Contingencia</RootNamespace>
+    <AssemblyName>Contingencia</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/Contingencia/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1Prueba.cs" />
+    <Compile Include="CLSBasculas.cs" />
+    <Compile Include="ClsBase.cs" />
+    <Compile Include="CLSCalidad.cs" />
+    <Compile Include="CLSCalidadBAL.cs" />
+    <Compile Include="CLSCalidadCollection.cs" />
+    <Compile Include="CLSCalidadDAL.cs" />
+    <Compile Include="CLSCanalFin.cs" />
+    <Compile Include="CLSCanalFinBAL.cs" />
+    <Compile Include="CLSCanalFinDAL.cs" />
+    <Compile Include="ClsCatAlmacen.cs" />
+    <Compile Include="ClsCatAlmacenBAL.cs" />
+    <Compile Include="ClsCatAlmacenCollection.cs" />
+    <Compile Include="ClsCatAlmacenDAL.cs" />
+    <Compile Include="CLSCatCentro.cs" />
+    <Compile Include="CLSCatCentroBAL.cs" />
+    <Compile Include="CLSCatCentroCollection.cs" />
+    <Compile Include="CLSCatCentroDAL.cs" />
+    <Compile Include="CLSCatDestino.cs" />
+    <Compile Include="CLSCatDestinoBAL.cs" />
+    <Compile Include="CLSCatDestinoCollection.cs" />
+    <Compile Include="CLSCatDestinoDAL.cs" />
+    <Compile Include="ClsCatUbicaciones.cs" />
+    <Compile Include="ClsCatUbicacionesBAL.cs" />
+    <Compile Include="ClsCatUbicacionesCollection.cs" />
+    <Compile Include="ClsCatUbicacionesDAL.cs" />
+    <Compile Include="ClsCatZMaster.cs" />
+    <Compile Include="ClsCatZMasterBAL.cs" />
+    <Compile Include="ClsCatZMasterCollection.cs" />
+    <Compile Include="ClsCatZMasterDAL.cs" />
+    <Compile Include="ClsCentro.cs" />
+    <Compile Include="ClsDatosHU.cs" />
+    <Compile Include="ClsDetalle.cs" />
+    <Compile Include="ClsDetalleCollection.cs" />
+    <Compile Include="ClsDividirC.cs" />
+    <Compile Include="ClsEntorno.cs" />
+    <Compile Include="ClsEntregas.cs" />
+    <Compile Include="ClsEntregasBAL.cs" />
+    <Compile Include="ClsEntregasCollection.cs" />
+    <Compile Include="ClsEntregasDAL.cs" />
+    <Compile Include="ClsEntregasDetalle.cs" />
+    <Compile Include="ClsEntregasDetalleCollection.cs" />
+    <Compile Include="ClsEtiquetaGeneral.cs" />
+    <Compile Include="CLSFatom.cs" />
+    <Compile Include="CLSFatomBAL.cs" />
+    <Compile Include="CLSFatomCollection.cs" />
+    <Compile Include="CLSFatomDAL.cs" />
+    <Compile Include="CLSFolio.cs" />
+    <Compile Include="ClsFileManager.cs" />
+    <Compile Include="CLSFolioBAL.cs" />
+    <Compile Include="CLSFolioCollection.cs" />
+    <Compile Include="CLSFolioDAL.cs" />
+    <Compile Include="ClsFunciones.cs" />
+    <Compile Include="ClsImpresionCodigoBarras.cs" />
+    <Compile Include="CLSLips.cs" />
+    <Compile Include="CLSLipsBAL.cs" />
+    <Compile Include="CLSLipsCollection.cs" />
+    <Compile Include="CLSLipsDAL.cs" />
+    <Compile Include="CLSLote.cs" />
+    <Compile Include="CLSLoteBAL.cs" />
+    <Compile Include="CLSLoteCollection.cs" />
+    <Compile Include="CLSLoteDAL.cs" />
+    <Compile Include="ClsMARA.cs" />
+    <Compile Include="ClsMARABAL.cs" />
+    <Compile Include="ClsMARACollection.cs" />
+    <Compile Include="ClsMARADAL.cs" />
+    <Compile Include="CLSMatnrWFecha.cs" />
+    <Compile Include="CLSMatnrWFechaCollection.cs" />
+    <Compile Include="ClsMetodosHU.cs" />
+    <Compile Include="ClsNumCaja.cs" />
+    <Compile Include="ClsOPCS.cs" />
+    <Compile Include="ClsOPCSBAL.cs" />
+    <Compile Include="ClsOPCSCollection.cs" />
+    <Compile Include="ClsOPCSDAL.cs" />
+    <Compile Include="CLSOrdenProd.cs" />
+    <Compile Include="CLSOrdenProdBAL.cs" />
+    <Compile Include="CLSOrdenProdCollection.cs" />
+    <Compile Include="CLSOrdenProdDAL.cs" />
+    <Compile Include="ClsPdtPdData.cs" />
+    <Compile Include="ClsPesoMatN.cs" />
+    <Compile Include="ClsPesoMatNCollection.cs" />
+    <Compile Include="ClsPLPO.cs" />
+    <Compile Include="ClsPLPOBAL.cs" />
+    <Compile Include="ClsPLPOCollection.cs" />
+    <Compile Include="ClsPLPODAL.cs" />
+    <Compile Include="ClsProcedimientos.cs" />
+    <Compile Include="ClsProcedimientosCollection.cs" />
+    <Compile Include="ClsResb.cs" />
+    <Compile Include="ClsResbBAL.cs" />
+    <Compile Include="ClsResbCollection.cs" />
+    <Compile Include="ClsResbDAL.cs" />
+    <Compile Include="CLSRFC.cs" />
+    <Compile Include="ClsTabTemZMaster.cs" />
+    <Compile Include="ClsTabTemZMasterBAL.cs" />
+    <Compile Include="ClsTabTemZMasterCollection.cs" />
+    <Compile Include="ClsTabTemZMasterDAL.cs" />
+    <Compile Include="ClsTarimaTemporal.cs" />
+    <Compile Include="ClsTarimaTemporalCollection.cs" />
+    <Compile Include="CLSTaspCalidad.cs" />
+    <Compile Include="CLSTipoAlmacen.cs" />
+    <Compile Include="CLSTipoAlmacenBAL.cs" />
+    <Compile Include="CLSTipoAlmacenCollection.cs" />
+    <Compile Include="CLSTipoAlmacenDAL.cs" />
+    <Compile Include="CLSTrapCalidadCollection.cs" />
+    <Compile Include="CLSTraspCalidadBAL.cs" />
+    <Compile Include="CLSTraspCalidadDAL.cs" />
+    <Compile Include="ClsUsuarios.cs" />
+    <Compile Include="ClsUsuariosBAL.cs" />
+    <Compile Include="ClsUsuariosCollection.cs" />
+    <Compile Include="ClsUsuariosDAL.cs" />
+    <Compile Include="ClsVariablesEntorno.cs" />
+    <Compile Include="ClsVariablesEntornoBD.cs" />
+    <Compile Include="ClsZBasculas.cs" />
+    <Compile Include="ClsZBasculasBAL.cs" />
+    <Compile Include="ClsZBasculasCollection.cs" />
+    <Compile Include="ClsZBasculasDAL.cs" />
+    <Compile Include="ClsZCAT.cs" />
+    <Compile Include="ClsZCATBAL.cs" />
+    <Compile Include="ClsZCATCollection.cs" />
+    <Compile Include="ClsZCATDAL.cs" />
+    <Compile Include="ClsZCTC.cs" />
+    <Compile Include="ClsZCTCBAL.cs" />
+    <Compile Include="ClsZCTCCollection.cs" />
+    <Compile Include="ClsZCTCDAL.cs" />
+    <Compile Include="ClsZEtiqueta.cs" />
+    <Compile Include="ClsZFolio.cs" />
+    <Compile Include="ClsZFolioBAL.cs" />
+    <Compile Include="ClsZFolioCollection.cs" />
+    <Compile Include="ClsZFolioDAL.cs" />
+    <Compile Include="ClsZTPPGrupoEmp.cs" />
+    <Compile Include="ClsZTPPGrupoEmpBAL.cs" />
+    <Compile Include="ClsZTPPGrupoEmpCollection.cs" />
+    <Compile Include="ClsZTPPGrupoEmpDAL.cs" />
+    <Compile Include="ClsZTPPGrupoMat.cs" />
+    <Compile Include="ClsZTPPGrupoMatBAL.cs" />
+    <Compile Include="ClsZTPPGrupoMatCollection.cs" />
+    <Compile Include="ClsZTPPGrupoMatDAL.cs" />
+    <Compile Include="ClsZTPPLogs.cs" />
+    <Compile Include="ClsZTPPLogsBAL.cs" />
+    <Compile Include="ClsZTPPLogsCollection.cs" />
+    <Compile Include="ClsZTPPLogsDAL.cs" />
+    <Compile Include="ClsZTPPTrazabi.cs" />
+    <Compile Include="ClsZTPPTrazabiBAL.cs" />
+    <Compile Include="ClsZTPPTrazabiCollection.cs" />
+    <Compile Include="ClsZTPPTrazabiDAL.cs" />
+    <Compile Include="Constantes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Constantes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Conversion.cs" />
+    <Compile Include="CustomDataGridView.cs" />
+    <Compile Include="Errores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Errores.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAcercaDe.Designer.cs">
+      <DependentUpon>FrmAcercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdmoUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdmoUsuarios.Designer.cs">
+      <DependentUpon>FrmAdmoUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarTarima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarTarima.designer.cs">
+      <DependentUpon>FrmAgregarTarima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmArmadoTarimas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmArmadoTarimas.designer.cs">
+      <DependentUpon>FrmArmadoTarimas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAsignarTarimasEntrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAsignarTarimasEntrega.designer.cs">
+      <DependentUpon>FrmAsignarTarimasEntrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBase.designer.cs">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBaseCatalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBaseCatalogo.Designer.cs">
+      <DependentUpon>FrmBaseCatalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCatalagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCatalagos.Designer.cs">
+      <DependentUpon>FrmCatalagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfirmacionEntregas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfirmacionEntregas.Designer.cs">
+      <DependentUpon>FrmConfirmacionEntregas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDesembalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDesembalar.Designer.cs">
+      <DependentUpon>FrmDesembalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEntradaZPPG03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEntradaZPPG03.Designer.cs">
+      <DependentUpon>FrmEntradaZPPG03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHuInterfazCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHuInterfazCaja.Designer.cs">
+      <DependentUpon>FrmHuInterfazCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHUProcesarEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHUProcesarEntrada.Designer.cs">
+      <DependentUpon>FrmHUProcesarEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaSeleccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaSeleccion.Designer.cs">
+      <DependentUpon>FrmListaSeleccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMonitorEntregas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMonitorEntregas.Designer.cs">
+      <DependentUpon>FrmMonitorEntregas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReimpresionEtiquetas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReimpresionEtiquetas.designer.cs">
+      <DependentUpon>FrmReimpresionEtiquetas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmstarUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmstarUp.designer.cs">
+      <DependentUpon>FrmstarUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStarUpSU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStarUpSU.designer.cs">
+      <DependentUpon>FrmStarUpSU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTrasladosTarimas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTrasladosTarimas.designer.cs">
+      <DependentUpon>FrmTrasladosTarimas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZMASTERMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZMASTERMenu.Designer.cs">
+      <DependentUpon>FrmZMASTERMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZPPG01Captura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZPPG01Captura.Designer.cs">
+      <DependentUpon>FrmZPPG01Captura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZPPG01Entrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZPPG01Entrada.Designer.cs">
+      <DependentUpon>FrmZPPG01Entrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZPPG02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZPPG02.Designer.cs">
+      <DependentUpon>FrmZPPG02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZPPG03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZPPG03.Designer.cs">
+      <DependentUpon>FrmZPPG03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZPPG05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZPPG05.designer.cs">
+      <DependentUpon>FrmZPPG05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZPPG05Entrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZPPG05Entrada.designer.cs">
+      <DependentUpon>FrmZPPG05Entrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZPPG27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZPPG27.designer.cs">
+      <DependentUpon>FrmZPPG27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZwmg04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZwmg04.designer.cs">
+      <DependentUpon>FrmZwmg04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimientos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Procedimientos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CLSCanalFinCollection.cs" />
+    <Compile Include="ZPPG02Tabla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZPPG02Tabla.Designer.cs">
+      <DependentUpon>ZPPG02Tabla.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Constantes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Constantes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errores.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Errores.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAcercaDe.resx">
+      <DependentUpon>FrmAcercaDe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdmoUsuarios.resx">
+      <DependentUpon>FrmAdmoUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarTarima.resx">
+      <DependentUpon>FrmAgregarTarima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmArmadoTarimas.resx">
+      <DependentUpon>FrmArmadoTarimas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAsignarTarimasEntrega.resx">
+      <DependentUpon>FrmAsignarTarimasEntrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBase.resx">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBaseCatalogo.resx">
+      <DependentUpon>FrmBaseCatalogo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCatalagos.resx">
+      <DependentUpon>FrmCatalagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfirmacionEntregas.resx">
+      <DependentUpon>FrmConfirmacionEntregas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDesembalar.resx">
+      <DependentUpon>FrmDesembalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEntradaZPPG03.resx">
+      <DependentUpon>FrmEntradaZPPG03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHuInterfazCaja.resx">
+      <DependentUpon>FrmHuInterfazCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHUProcesarEntrada.resx">
+      <DependentUpon>FrmHUProcesarEntrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaSeleccion.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FrmListaSeleccion1.Designer.cs</LastGenOutput>
+      <DependentUpon>FrmListaSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMonitorEntregas.resx">
+      <DependentUpon>FrmMonitorEntregas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReimpresionEtiquetas.resx">
+      <DependentUpon>FrmReimpresionEtiquetas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmstarUp.resx">
+      <DependentUpon>FrmstarUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStarUpSU.resx">
+      <DependentUpon>FrmStarUpSU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTrasladosTarimas.resx">
+      <DependentUpon>FrmTrasladosTarimas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZMASTERMenu.resx">
+      <DependentUpon>FrmZMASTERMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZPPG01Captura.resx">
+      <DependentUpon>FrmZPPG01Captura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZPPG01Entrada.resx">
+      <DependentUpon>FrmZPPG01Entrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZPPG02.resx">
+      <DependentUpon>FrmZPPG02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZPPG03.resx">
+      <DependentUpon>FrmZPPG03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZPPG05.resx">
+      <DependentUpon>FrmZPPG05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZPPG05Entrada.resx">
+      <DependentUpon>FrmZPPG05Entrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZPPG27.resx">
+      <DependentUpon>FrmZPPG27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZwmg04.resx">
+      <DependentUpon>FrmZwmg04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procedimientos.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Procedimientos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Variables.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Variables.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ZPPG02Tabla.resx">
+      <DependentUpon>ZPPG02Tabla.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Variables.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Variables.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_keken.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instancia.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Listado.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footer.png" />
+    <None Include="Resources\header.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

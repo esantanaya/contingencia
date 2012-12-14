@@ -1,0 +1,11 @@
+xxxSbd : SERVIDORCECOBSA\SQLEXPRESS
+Sbd : ENRIQUE-PC\SQLEXPRESS
+xxxSbd : VCSALGADO\SQLEXPRESS
+xxxSbd : ORPHEN-PC
+Sus : sa
+Spw : Misato
+xxxSbd : MERDBS01\SQLEXPRESS
+xxxSus : usr.gpm
+xxxSpw : contingencia
+Nbd : KekenDB
+Sop : \\MERDBS01\EtiquetasContingencia\

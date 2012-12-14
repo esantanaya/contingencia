@@ -1,0 +1,16 @@
+C:\Basura\Contingencia\Recartera\obj\Release\ResolveAssemblyReference.cache
+C:\Basura\Contingencia\Recartera\obj\Release\Recartera.Constantes.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Recartera.Errores.resources
+C:\Basura\Contingencia\Recartera\obj\Release\BaseDesarrollo.FrmAcercaDe.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Contingencia.FrmBase.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Contingencia.FrmBaseCatalogo.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Contingencia.FrmListaSeleccion.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Contingencia.FrmLogin.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Contingencia.FrmPrincipal.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Contingencia.FrmUsuarios.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Contingencia.FrmZPPG01Captura.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Contingencia.FrmZPPG01Entrada.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Recartera.Procedimientos.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Recartera.Properties.Resources.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Recartera.Variables.resources
+C:\Basura\Contingencia\Recartera\obj\Release\Contingencia.csproj.GenerateResource.Cache
